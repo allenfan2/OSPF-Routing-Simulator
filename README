@@ -1,0 +1,14 @@
+README FILE
+
+run ./router.sh <router_id> <nse_host> <nse_port> <router_port>
+
+1.) Start NSE first with the router's host.
+2.) Then begin to run router program from id = 1 to id = 5 in that order.
+
+NOTE: During my testing I got these network delay errors that made my output errorness because somehow
+packets were dropped. It  usually is caused by server lag.
+If you get an incorrect result try running again. It happens about 10% of the time.
+It might have to do with how the timeout of the receiving the packet. 
+
+
+TESTED ON: UNDERGRAD 02,08,06, both same host for NSE/Routers and different host.
